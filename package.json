@@ -1,0 +1,18 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass project/sass/main.scss project/css/style.css -w",
+    "live-server": "live-server project"
+  },
+  "author": "Benjamin Drejer",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  },
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
